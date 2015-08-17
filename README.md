@@ -13,3 +13,14 @@ Like all Imaris XTensions, the .m file simply needs to be placed into the 'XT\ma
 # Running
 
 The XTension is under '''Images->Spots Functions''' and is called ''Average Spots By Distance'' 
+
+# Special Notes
+
+This XTension can be used outside of the Imaris menus, simply call
+```
+XTSpotsAverageByDistance(aImarisApplication, distance);
+```
+where `aImarisApplication` is either the ID to the Imaris application or an instance of `vImarisApplication`
+and `distance` the distance that you want to use. 
+
+Calling it this way does not cause a prompt to appear.
