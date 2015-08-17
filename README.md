@@ -4,7 +4,7 @@ This XTension takes in a spots object and a distance value and returns a new spo
 
 # Download
 
-Just download the latest version here
+Just download the latest version [on GitHub](https://github.com/lacan/imaris-average-spots-by-distance/releases/tag/v1.0) or on [Imaris Open](test)
 
 # Install
 
